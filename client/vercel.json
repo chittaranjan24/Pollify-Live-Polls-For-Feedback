@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://pollify-live-polls-for-feedback-production.up.railway.app"
+    }
+  ]
+}
