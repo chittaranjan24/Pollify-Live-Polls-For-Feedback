@@ -2,6 +2,8 @@
 
 ![Pollify Landing Page](https://ik.imagekit.io/chittaranjanFSD/products/landingPage.jpg)
 
+**Pitch Deck URL:** [https://csdev.hashnode.dev/building-pollify-engineering-a-real-time-polling-platform-that-handles-instant-feedback-at-scale](https://csdev.hashnode.dev/building-pollify-engineering-a-real-time-polling-platform-that-handles-instant-feedback-at-scale)
+
 
 **Pollify** is a real-time polling application that allows users to create, share, and analyze polls to gather instant feedback. It's built with a modern tech stack, featuring a React frontend and a Node.js/Express backend, with real-time updates powered by Socket.io.
 
