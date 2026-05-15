@@ -24,7 +24,6 @@ export default function Home() {
           <div className="hero-orb hero-orb-2" />
         </div>
         <div className="hero-content fade-in">
-          <div className="hero-tag">✨ Full-stack MERN Polling Platform</div>
           <h1 className="hero-title">
             Create polls.<br />
             Collect feedback.<br />
