@@ -47,14 +47,15 @@ async function createPolls(req, res) {
 async function getMyPolls(req, res) {
     try {
         const polls = await Poll.find({ creator: req.user._id })
-        .sort({ createdAt: -1 })
-        .select('-questions.options.count');  // hide internal counts in list
-        
-        // Re-attach counts for own polls
-        const fullPolls = await Poll.find({ creator: req.user._id }).sort({ createdAt: -1 });
-        res.json(fullPolls);
+            .sort({ createdAt: -1 });
+
+        res.json(polls);
+
     } catch (error) {
-        res.status(500).json({ message: 'Server error', error: error.message });
+        res.status(500).json({
+            message: 'Server error',
+            error: error.message
+        });
     }
 }
 
