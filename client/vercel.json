@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://pollify-live-polls-for-feedback-production.up.railway.app"
+      "destination": "https://pollify-live-polls-for-feedback-production.up.railway.app/api/$1"
     }
   ]
 }
